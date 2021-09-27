@@ -34,4 +34,12 @@ function fetchPosts() {
   return instance.get('posts');
 }
 
-export { registerUser, loginUser, fetchPosts };
+/**
+ * 학습 데이터 생성 API
+ * @param {Object} postData title, contents 값
+ */
+function createPost(postData) {
+  return instance.post('posts', postData);
+}
+
+export { registerUser, loginUser, fetchPosts, createPost };
