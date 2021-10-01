@@ -1,4 +1,4 @@
-# vue-hacker-news
+# vue-study-note
 
 ## 프로젝트 소개
 생성,수정,삭제,조회가 가능한 학습노트 제작 프로젝트 입니다.
